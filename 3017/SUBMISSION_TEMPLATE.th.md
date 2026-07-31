@@ -14,23 +14,42 @@
 
 หมายเลข/ชื่อโจทย์ OJ:
 
-```[LEARNING LOGS] Colors```
+```text
+
+```
 
 OJ submission ID ถ้ามีการส่งแล้ว:
 
-```579968```
+```text
+
+```
 
 สถานะ OJ:
 
-```Pass```
+```text
+Pass / Not Pass / Not Submit
+```
 
 เวลาที่ใช้คิดและทำโจทย์ด้วยตนเอง:
 
-```15 นาที```
+```text
+
+```
 
 เลือกหนึ่งข้อ:
 
-```0-15 minutes```
+```text
+0-15 minutes
+15-30 minutes
+30-60 minutes
+1-3 hours
+3-6 hours
+6-24 hours
+1-3 days
+4-7 days
+1-4 weeks
+More than 4 weeks
+```
 
 วิธีนับเวลา:
 
@@ -53,7 +72,9 @@ OJ submission ID ถ้ามีการส่งแล้ว:
 
 ถ้ายังไม่เข้าใจโจทย์ทั้งหมด ให้เขียนสิ่งที่เข้าใจในตอนนี้ ความเข้าใจอาจยังไม่ครบหรืออาจผิดได้ แต่ต้องพยายามอธิบายอย่างจริงใจ
 
-```input รับสีมา output คือสีที่ผสมแล้ว ส่วนใช้ if ไปจนครบสามสี หก Combination```
+```text
+
+```
 
 ---
 
@@ -71,7 +92,11 @@ OJ submission ID ถ้ามีการส่งแล้ว:
 
 สามารถเขียนเป็น pseudocode, flowchart idea หรือขั้นตอนความคิดได้
 
-```Step 1:อ่านโจทย์ให้ครบ Step 2:ทำความเข้าใจ Step 3:ทำโจทย์```
+```text
+Step 1:
+Step 2:
+Step 3:
+```
 
 ---
 
@@ -89,7 +114,9 @@ OJ submission ID ถ้ามีการส่งแล้ว:
 
 ห้ามคัดลอกคำอธิบายจากคนอื่น
 
-```อ่านโจทย์แล้วเขียนเลย```
+```text
+
+```
 
 ---
 
@@ -107,67 +134,97 @@ OJ submission ID ถ้ามีการส่งแล้ว:
 
 ทำไมเลือก case นี้:
 
-```คู่สีโปรด```
+```text
+
+```
 
 Input:
 
-```Pink, Blue```
+```text
+
+```
 
 Expected output:
 
-```Error```
+```text
+
+```
 
 Actual output:
 
-```Error```
+```text
+
+```
 
 Result:
 
-```Pass```
+```text
+Pass / Not Pass
+```
 
 ### Test Case 2
 
 ทำไมเลือก case นี้:
 
-```เพราะยังไม่มี```
+```text
+
+```
 
 Input:
 
-```Red, Blue```
+```text
+
+```
 
 Expected output:
 
-```Violet```
+```text
+
+```
 
 Actual output:
 
-```Violet```
+```text
+
+```
 
 Result:
 
-```Pass```
+```text
+Pass / Not Pass
+```
 
 ### Test Case 3
 
 ทำไมเลือก case นี้:
 
-```มันไม่ซ้ำ```
+```text
+
+```
 
 Input:
 
-```Black, Red```
+```text
+
+```
 
 Expected output:
 
-```Error```
+```text
+
+```
 
 Actual output:
 
-```Error```
+```text
+
+```
 
 Result:
 
-```Pass```
+```text
+Pass / Not Pass
+```
 
 ---
 
@@ -175,11 +232,15 @@ Result:
 
 ใช้ AI กับโจทย์นี้หรือไม่
 
-```Yes```
+```text
+Yes / No
+```
 
 ถ้าใช้ AI ต้องทำไฟล์นี้ด้วย:
 
-```ai_reflection.md```
+```text
+ai_reflection.md
+```
 
 ถ้าถามเฉพาะเพื่อน TA หรือผู้สอน และไม่ได้ใช้ AI ไม่ต้องทำ `ai_reflection.md`
 
@@ -189,7 +250,9 @@ Result:
 
 ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
 
-```No```
+```text
+Yes / No
+```
 
 ถ้าใช่ ให้อธิบายสั้น ๆ ว่าได้รับความช่วยเหลือแบบใด
 
@@ -230,7 +293,9 @@ Result:
 
 คุณคัดลอก code จากคนอื่นหรือไม่
 
-```No```
+```text
+No
+```
 
 ---
 
@@ -240,10 +305,10 @@ Result:
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. |Yes|
-| I understand my final code. |Yes|
-| I recorded the real OJ status. |Yes|
-| I did not copy AI-generated text directly into this file. |Yes|
-| I did not copy code from another person. |Yes|
-| If I received human help, I disclosed it in this file. |Yes|
-| I submitted the final code to the OJ by myself. |Yes|
+| I wrote this submission in my own words. | |
+| I understand my final code. | |
+| I recorded the real OJ status. | |
+| I did not copy AI-generated text directly into this file. | |
+| I did not copy code from another person. | |
+| If I received human help, I disclosed it in this file. | |
+| I submitted the final code to the OJ by myself. | |

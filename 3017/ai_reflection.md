@@ -7,6 +7,7 @@
 ```text
 ai_reflection.md
 ```
+
 เขียน reflection นี้ด้วยคำพูดของตนเอง
 
 ห้ามวาง AI conversation ทั้งหมด
@@ -21,9 +22,9 @@ AI อาจช่วยตรวจ grammar, formatting หรือควา�
 
 | Item | Answer |
 |---|---|
-| OJ problem number/title | 3011/[LEARNING LOGS] Colors |
-| OJ submission ID, if submitted | 579968 |
-| OJ status | Pass |
+| OJ problem number/title |  |
+| OJ submission ID, if submitted |  |
+| OJ status | Pass / Not Pass / Not Submit |
 
 ---
 
@@ -44,7 +45,9 @@ Other: ...
 
 My answer:
 
-```Claude```
+```text
+
+```
 
 ---
 
@@ -64,7 +67,9 @@ My answer:
 
 ถ้าตอบ "No" ในข้อใด ให้อธิบายเหตุผล:
 
-```Yes```
+```text
+
+```
 
 ---
 
@@ -84,7 +89,9 @@ My answer:
 
 My answer:
 
-```ถามว่าอะไรอาจเป็นสาเหตุของ Error```
+```text
+
+```
 
 ---
 
@@ -103,7 +110,9 @@ My answer:
 
 My answer:
 
-```หา Error```
+```text
+
+```
 
 ---
 
@@ -122,7 +131,9 @@ My answer:
 
 My answer:
 
-```ฉันตรวจ input format และ testcase ```
+```text
+
+```
 
 ---
 
@@ -136,7 +147,9 @@ My answer:
 
 My answer:
 
-```สอนให้คิดให้ถี่ถ้วนและรอบคอบ ไม่มองข้ามช่องโหว่เล็กๆ```
+```text
+
+```
 
 ---
 
@@ -146,8 +159,8 @@ My answer:
 
 | Statement | Yes / No |
 |---|---|
-| I wrote this reflection in my own words. | Yes |
-| This reflection describes my real AI use. | Yes |
-| I checked AI's suggestions before using them. | Yes |
-| I can explain my final code. | Yes |
-| I did not ask AI to write this reflection for me. | Yes |
+| I wrote this reflection in my own words. |  |
+| This reflection describes my real AI use. |  |
+| I checked AI's suggestions before using them. |  |
+| I can explain my final code. |  |
+| I did not ask AI to write this reflection for me. |  |
