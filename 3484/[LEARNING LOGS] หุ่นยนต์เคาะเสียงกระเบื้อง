@@ -1,0 +1,29 @@
+"""[LEARNING LOGS] หุ่นยนต์เคาะเสียงกระเบื้อง"""
+def main():
+    """เสียงกระเบื้อง"""
+    n,p = map(int,input().split())
+
+    stat = [[0] * n] * n
+    row = [0] * n
+    colum = [0] * n
+    log = [0] * n
+
+    for i in range(n):
+        stat[i] = list(map(int,input().split()))
+    for i in range(n):
+        row = stat[i]
+        count = 0
+        k = 0
+        for j in row:
+            print(j,end=" ")
+            colum[k] += j
+            if j:
+                count+=1
+                log[k] += 1
+            k+=1
+        print(count,sum(row))
+
+    print(*log)
+    print(*colum)
+    print(f"{sum(log)} {sum(colum)} {sum(colum)*p:.2f}")
+main()
