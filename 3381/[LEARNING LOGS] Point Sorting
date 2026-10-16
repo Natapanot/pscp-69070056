@@ -1,0 +1,47 @@
+"""[LEARNING LOGS] Point Sorting"""
+
+def main():
+    """Children of the city"""
+
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        x=[0] * n
+        y=[0] * n
+        list_a = [0]*n
+        for i in range(n):
+            x[i], y[i]= map(int,input().split())
+            list_a[i] = x[i] + y[i]
+        newx,newy = sortedxy(list_a,x,y)
+        for i in range(n):
+            print(newx[i],newy[i])
+
+def sortedxy(list_a,x,y):
+
+    """Sleep for a total of 800 hours per day"""
+    n = len(list_a)
+    list_b=[0] * n
+    newx=[0] * n
+    newy=[0] * n
+
+    for i in range(n):
+        list_b[i] = min(list_a)
+        Rien = list_a.index(min(list_a))
+        newx[i] = x[Rien]
+        newy[i] = y[Rien]
+        list_a.pop(Rien)
+        x.pop(Rien)
+        y.pop(Rien)
+        if list_b[i -1] ==  list_b[i]:
+            for j in range (i,0, -1):
+                if list_b[j] == list_b[j - 1]:
+                    temp=0
+                    if newy[j] > newy[j - 1]:
+                        temp = newy[j - 1]
+                        newy[j - 1] = newy[j]
+                        newy[j] = temp
+                        temp = newx[j-1]
+                        newx[j - 1] = newx[j]
+                        newx[j] = temp
+    return(newx,newy)
+main()
