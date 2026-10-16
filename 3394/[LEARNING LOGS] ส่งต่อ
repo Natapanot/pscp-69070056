@@ -1,0 +1,23 @@
+"""[LEARNING LOGS] ส่งต่อ"""
+def main():
+    """ส่งต่อ"""
+    n,s = map(int,input().split())
+    s -= 1
+    lst= [0] * n
+    check = [-1] * (n+1)
+
+    for i in range(n):
+        lst[i] = (int(input()))-1
+    loop = True
+    i = 0
+    count = -1
+
+    while loop:
+        if s in check or s == -1:
+            loop = False
+        count += 1
+        check[i] = s
+        s = lst[s]
+        i += 1
+    print(count)
+main()
