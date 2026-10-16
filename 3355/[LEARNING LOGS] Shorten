@@ -1,0 +1,23 @@
+"""Shorten"""
+def main():
+
+    """Shorten"""
+    num = -2
+    num_list = []
+    short=""
+    while num != -1:
+        num = int(input())
+        num_list.append(num)
+    temp=0
+    for i in range(len(num_list)-1):
+        if i==len(num_list)-2:
+            short+=str(num_list[i])
+        elif num_list[i]+1==num_list[i+1]:
+            if not temp:
+                short+= str(num_list[i])+"-"
+                temp=1
+        else:
+            short += str(num_list[i])+", "
+            temp=0
+    print(short)
+main()
