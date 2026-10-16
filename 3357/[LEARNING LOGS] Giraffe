@@ -1,0 +1,25 @@
+"""[LEARNING LOGS] Giraffe"""
+def main():
+    """Giraffe"""
+    n = int(input())
+    lst = []
+    count = 0
+
+    for _ in range(n):
+        h = int(input())
+        lst.append(h)
+    for i in range(n):
+        if n == 1:
+            count = 1
+            break
+
+        if not i:
+            if lst[i] > lst[i+1]:
+                count += 1
+        elif i == n-1:
+            if lst[i] > lst[i-1]:
+                count += 1
+        elif lst[i] > lst[i+1] and lst[i] > lst[i-1]:
+            count += 1
+    print(count)
+main()
