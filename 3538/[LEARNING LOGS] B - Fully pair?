@@ -1,0 +1,15 @@
+"""B - Fully pair?"""
+def main():
+    """LEARNING LOGS"""
+    word = input()
+    nofriend = ""
+
+    for i in word:
+        if word.count(i) % 2 == 1 and i not in nofriend:
+            nofriend += i
+
+    if nofriend:
+        print(nofriend)
+    else:
+        print("fully paired")
+main()
